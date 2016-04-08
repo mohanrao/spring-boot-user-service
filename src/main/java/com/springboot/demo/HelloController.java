@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/")
     public String home(){
-        return "Hello world Rohit !!!!";
+        return "Hello world in Docker !!!!";
     }
 }
