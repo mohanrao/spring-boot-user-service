@@ -8,10 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class HelloController {
-    public static final String HELLO_WORLD = "Hello world !!!!";
-
     @RequestMapping("/")
     public String home(){
-        return  HELLO_WORLD;
+        return "Hello world in Docker world !!!!";
     }
 }
