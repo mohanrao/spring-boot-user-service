@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    public static final String MESSAGE = "Hello world !!!!";
+    public static final String MESSAGE = "Hai";
 
     @RequestMapping("/")
     public String home(){
